@@ -355,6 +355,11 @@ footer h4{
     opacity: 0.7;
 }
 
+.contract{
+    font-weight: 400;
+    font-size: 17px;
+}
+
 
 
 @media screen and (max-width: 767px) {
