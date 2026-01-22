@@ -1,4 +1,12 @@
 $(document).ready(function () {
+    
+    $('.navbar-nav .nav-link').on('click', function () {
+        if ($(window).width() < 992) {
+            $('.navbar-collapse').collapse('hide');
+        }
+    });
+
+
     var headerHeight = $('.navbar').outerHeight() || 0;
 
     // CLICK SMOOTH SCROLL
